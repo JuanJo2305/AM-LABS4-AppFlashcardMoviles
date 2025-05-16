@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/ivImagen"
+        android:layout_width="246dp"
+        android:layout_height="272dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="Imagen del juego"
+        android:src="@drawable/android" />
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultados del Juego"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvTiempoTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiempo total: --:--"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#B00020"
+        android:layout_marginTop="-5dp"/>
+
+
+    <TextView
+        android:id="@+id/tvPuntajeDecimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puntaje: "
+        android:textSize="20sp"
+        android:textColor="#4CAF50"
+        android:paddingBottom="10dp" />
+
+    <TextView
+        android:id="@+id/tvRespuestas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="Respuestas acertadas: "
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvMensajePodio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:textColor="#FF9800"
+        android:paddingTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnReiniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reintentar"
+        android:layout_marginTop="18dp"
+        />
+
+
+</LinearLayout>
